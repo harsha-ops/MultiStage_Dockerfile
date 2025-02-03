@@ -17,15 +17,15 @@ Distroless images contain only the essential components required for running an 
 
 This project showcases two different build methods to deploy a simple calculator Golang application:
 
-## 1.SingleStage Docker Build
+## SingleStage Docker Build
 
-## 2.MultiStage Docker Build
+## MultiStage Docker Build
 
 It then compares the sizes of both image types to illustrate the benefits of a MultiStage Build.
 
 ## Building the Images
 
-# SingleStage Build
+## SingleStage Build
 
 - Clone the repo and switch to the singleStageDocker folder.
 - Run the below command to build the image using Single stage Dockerfile.
@@ -34,7 +34,7 @@ It then compares the sizes of both image types to illustrate the benefits of a M
     docker build -t calculator-singlestage .
     ```
 
-# MultiStage Build
+## MultiStage Build
 
 - Switch to the MultISTAGE_DOCKERFILE and Run the below command to build the image using Mutli stage Dockerfile.
 
@@ -42,7 +42,7 @@ It then compares the sizes of both image types to illustrate the benefits of a M
     docker build -t calculator-multistage .
     ```
 
-# Comparing Image Sizes
+## Comparing Image Sizes
 
 - Run the following command to check the size of the built images:
 
